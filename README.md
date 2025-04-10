@@ -1,114 +1,69 @@
-# 🧬 Loominus MCP
+# 🌐 Loominus MCP 
 
-**The self-hosted visual builder for agentic workflows using the Model Context Protocol (MCP).**  
-Build, orchestrate, and automate AI-native systems — visually, locally, and privately.
+**Visual Builder for Agentic Graph Workflows Powered by Model Context Protocol (MCP) Tools and Agents.**
 
-→ [🌐 Docs & Project Site](https://yourusername.github.io/loominus-mcp/)  
-→ [💸 Join for $8/month](./docs/join.md)
+Build, test, and deploy agentic workflows without writing code.  
+Drag. Drop. Connect. Orchestrate.
 
----
-
-## 🧠 What Is It?
-
-Loominus MCP is a **desktop app** that lets you wire together LLMs, APIs, memory systems, agents, sensors, and tools via a drag-and-drop visual interface.
-
-It’s the first **visual front-end for MCP tools and servers** — empowering anyone to build agentic workflows without code, cloud lock-in, or complexity.
-
-> Think: **Figma or Unreal Engine, but for orchestrating intelligent workflows.**
+> ⚡ We’re on a mission to democratize intelligence tooling for hackers of the digital and the physical world.
 
 ---
 
-## 🔒 Privacy-First & Local by Design
+## 🔥 Why Loominus MCP?
 
-- Runs **100% locally** on Windows, Mac, or Linux
-- Bring your own API keys (OpenAI, Claude, llama.cpp, etc.)
-- Connect local files, private docs, scientific instruments, etc.
-- No telemetry, no tracking, no cloud sync — ever
+MCP tools and servers are exploding across the open-source world. But unless you're deep in YAML, gRPC, or Python... it’s hard to build anything fast.
 
----
+**Loominus MCP solves that.**
 
-## 🛠 What Can You Build?
+It’s a visual interface for **wiring together agents, LLMs, APIs, tools, sensors, and data sources**—all powered by MCP.
 
-- Multimodal research agents with RAG & memory  
-- LLM-powered assistants that summarize documents or trigger tools  
-- IoT-connected workflows for DIY labs or smart spaces  
-- Multi-agent collaboration frameworks with context sharing  
-- Self-running experiments using tools + Bayesian optimization  
-
-→ [See Example Workflows](./docs/examples.md)
+Whether you're hacking a personal assistant, running autonomous experiments, or building AI-first apps, Loominus MCP gives you full orchestration power without touching a line of code.
 
 ---
 
-## 🚀 Key Features
+## 🧠 Features
 
-- 🎛️ Visual node editor — no YAML, no code  
-- 🔌 Connect to *any* MCP server (open source or custom)  
-- 🧩 Prebuilt node libraries: memory, tools, agents, LLMs, IO  
-- 🧠 Memory & context chaining, with live agent visualization  
-- 🧾 Workflow export/import for sharing and publishing
-
----
-
-## 🛤️ Roadmap
-
-Here’s what we’re actively building (with community input):
-
-- [x] Cross-platform app for local execution  
-- [x] Core node engine with visual graph editor  
-- [ ] **Node Marketplace** — discover & share node packs  
-- [ ] **Local LLM support** (llama.cpp, LM Studio, etc.)  
-- [ ] **Multi-agent routing + messaging**  
-- [ ] **Agent observability layer** (trace IO, memory, context)  
-- [ ] **Web-exportable workflows** (like Figma share links)  
-- [ ] **Node-level auth scopes + sandboxing**  
-- [ ] **Loominus Labs SDK** — node packs for hardware (BioLoom, MetaLab, etc.)
-
-→ You can propose features or vote on roadmap items in [GitHub Discussions](https://github.com/BioLattice/loominus-mcp/discussions)
+- 🎛️ **Node-Based Visual Editor** – Just drag, drop, connect
+- 🌐 **MCP-Ready** – Plug in *any* MCP server or agent
+- 🧩 **Composable Workflows** – Save, share, remix workflows
+- 🔍 **Observability** – Inspect memory, inputs, outputs, tools, and context
+- 🔌 **Plug & Play** – Works across AI models, web APIs, local files, and physical devices
 
 ---
 
-## 🌍 Community Contributions
+## 🚀 Use Cases
 
-We’re building Loominus MCP *together* with early adopters.
-
-You can contribute by:
-
-✅ Submitting your own **MCP servers** to the Community Collection  
-✅ Publishing node definitions and workflow templates  
-✅ Joining Discord + GitHub Discussions  
-✅ Requesting features or integrations  
-✅ Sharing your workflows and use cases
-
-→ [Submit your MCP server](https://github.com/BioLattice/loominus-mcp/discussions)  
-→ [View the Community MCP Directory (coming soon)](./docs/community-servers.md)
+- Build a **multimodal AI assistant** that reads your PDFs, generates notes, and answers questions
+- Create a **lab agent** that controls devices using LLMs + sensors (with Loominus for Biofabrication)
+- Prototype **multi-agent collaboration systems** with shared memory and goal-directed behaviors
+- Chain together tools like OpenAI, LangGraph, llama.cpp, huggingface, and local embeddings
+- Automate **personal research**, document analysis, or experimental workflows
 
 ---
 
-## 💸 Access & Pricing
+## 🧪 Who Is It For?
 
-- $8/month  
-- Includes: Visual app, updates, examples, community access, and private support  
-- One-time login key per device
+- AI hackers & builders  
+- DIY tinkerers & home lab scientists  
+- Research teams & academics  
+- Creative technologists  
+- Tool developers building for the MCP ecosystem
 
-→ [Subscribe with Stripe](./docs/join.md)
-
----
-
-## 📚 License
-
-(details soon)  
-
+> **You don’t need to be a developer.** Just start connecting.
 
 ---
 
-## 🧑‍🚀 Stay in the Loop
+## 💸 Join the Community – $8/month
 
-→ [Project Site](https://yourusername.github.io/loominus-mcp/)  
-→ [Twitter / X](https://twitter.com/biolattice) *(or your actual handle)*  
-→ [Email us](mailto:hello@biolattice.ai)
+We’re building an early-access community around Loominus MCP. 
 
----
+**Membership includes:**
+- ✅ Early access to releases (desktop + CLI)
+- 📚 Example agentic workflows (education, lab, automation, etc.)
+- 🎙️ Monthly demo days + roadmap votes
+- 🧠 Access to Discord & private GitHub discussion
+- 📦 Shared node library for importing/exporting workflows
 
-We’re on a mission to democratize intelligence tooling for scientists, hackers, and dreamers.
+→ [Join the waitlist](https://loominus.mcp/join) *(placeholder link)*
 
-Let’s build the visual OS for agentic workflows — together. 🌱
+
