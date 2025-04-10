@@ -1,5 +1,3 @@
-# loominus-mcp
-
 # 🧬 Loominus MCP
 
 **The self-hosted visual builder for agentic workflows using the Model Context Protocol (MCP).**  
@@ -98,9 +96,8 @@ You can contribute by:
 
 ## 📚 License
 
-- The **visual builder app** is distributed under an open-core, community-first license (details soon)  
-- Source code for nodes and server integrations will be partially open for community extension  
-- Full licensing, SDKs, and server hosting options coming soonfffgggg
+(details soon)  
+
 
 ---
 
