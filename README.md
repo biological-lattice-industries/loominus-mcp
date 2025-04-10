@@ -6,7 +6,7 @@ Build, orchestrate, and automate AI-native systems — visually, locally, and pr
 → [🌐 Docs & Project Site](https://yourusername.github.io/loominus-mcp/)  
 → [💸 Join for $8/month](./docs/join.md)
 
-<br>
+---
 
 ## 🧠 What Is It?
 
