@@ -1,58 +1,38 @@
 # 🌐 Loominus MCP
 
-- Download Loominus MCP: [Releases](https://github.com/biological-lattice-industries/loominus-mcp-client/releases)
+**Visual Node-Based Builder for Model Context Protocol (MCP) Servers & Agents.**
 
-## Demos
+## 🔥 Why Loominus MCP?
+ MCP tools and servers are exploding across the open-source world. This advancement promises universal inter-connectivity with the digital (software, APIs) and the physical world (sensors, instruments, machines).
+ 
+ > ⚡ However, it is  confusing and often hard to build anything fast. We believe that what is missing is a local, self-hostable client that allows you to configure and share MCP servers (public or private) and MCP-powered agents in a very clear and intuitive way. 
 
-- Blender (pending)
+**Loominus MCP solves that.**
 
-## Contribution Guidelines
-
-1. Configure an MCP server to Loominus MCP (Private + Public).
-2. Share an MCP server configuration with the Loominus community.
-    - Steps to share an MCP server (Github Issues)
-
-
-**Visual Builder for Agentic Graph Workflows Powered by Model Context Protocol (MCP) Tools and Agents.**
-
-Build, test, and deploy agentic workflows without writing code.  
-Drag. Drop. Connect. Orchestrate.
+It’s a visual interface for:
+- **configuring & sharing public and private MCP servers just with 1 click**
+-  **wiring together MCP servers/tools with LLMs** to create agents and automation workflows for anything you can imagine as long as there is an MCP server for that 
 
 > ⚡ We’re on a mission to democratize intelligence tooling for hackers of the digital and the physical world.
 
 ---
 
-## 🔥 Why Loominus MCP?
+## 🚀 Use Cases
 
-MCP tools and servers are exploding across the open-source world. But unless you're deep in YAML, gRPC, or Python... it’s hard to build anything fast.
+### 🚀 Digital World
+- Control **Blender** with natural language from Loominus and model complex 3D objects. ▶️ [Demo](...) ↘️ [Guide](...)    
 
-**Loominus MCP solves that.**
 
-It’s a visual interface for **wiring together agents, LLMs, APIs, tools, sensors, and data sources**—all powered by MCP.
-
-Whether you're hacking a personal assistant, running autonomous experiments, or building AI-first apps, Loominus MCP gives you full orchestration power without touching a line of code.
-
----
+### 🚀 Physical World
+-  🔥 **Coming Soon** 🔥 
 
 ## 🧠 Features
 
-- 🎛️ **Node-Based Visual Editor** – Just drag, drop, connect
+- 🎛️ **Node-Based Visual Editor** – Just drag, drop, connect⏩ 
 - 🌐 **MCP-Ready** – Plug in *any* MCP server or agent
 - 🧩 **Composable Workflows** – Save, share, remix workflows
 - 🔍 **Observability** – Inspect memory, inputs, outputs, tools, and context
 - 🔌 **Plug & Play** – Works across AI models, web APIs, local files, and physical devices
-
----
-
-## 🚀 Use Cases
-
-- Build a **multimodal AI assistant** that reads your PDFs, generates notes, and answers questions
-- Create a **lab agent** that controls devices using LLMs + sensors (with Loominus for Biofabrication)
-- Prototype **multi-agent collaboration systems** with shared memory and goal-directed behaviors
-- Chain together tools like OpenAI, LangGraph, llama.cpp, huggingface, and local embeddings
-- Automate **personal research**, document analysis, or experimental workflows
-
----
 
 ## 🧪 Who Is It For?
 
@@ -64,9 +44,9 @@ Whether you're hacking a personal assistant, running autonomous experiments, or 
 
 > **You don’t need to be a developer.** Just start connecting.
 
----
-
 ## 💸 Join the Community – $8/month
+
+- Download Loominus MCP: [Releases](https://github.com/biological-lattice-industries/loominus-mcp-client/releases)
 
 We’re building an early-access community around Loominus MCP. 
 
@@ -79,4 +59,10 @@ We’re building an early-access community around Loominus MCP.
 
 → [Join the waitlist](https://loominus.mcp/join) *(placeholder link)*
 
+## Contribution Guidelines
+
+1. Configure an MCP server to Loominus MCP (Private + Public).
+2. Share an MCP server configuration with the Loominus community.
+    - Steps to share an MCP server (Github Issues)
+---
 
