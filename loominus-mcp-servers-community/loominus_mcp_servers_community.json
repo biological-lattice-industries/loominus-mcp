@@ -1,0 +1,29 @@
+{
+    "Blender": {
+        "server_config": {
+            "mcpServers": {
+                "blender": {
+                    "command": "cmd",
+                    "args": [
+                        "/c",
+                        "uvx",
+                        "blender-mcp"
+                    ],
+                    "transport": "stdio",
+                    "env": {}
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "Blender",
+                "description": "",
+                "link": "https://github.com/ahujasid/blender-mcp",
+                "uv": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    }
+}

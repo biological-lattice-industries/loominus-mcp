@@ -1,4 +1,17 @@
-# 🌐 Loominus MCP 
+# 🌐 Loominus MCP
+
+- Download Loominus MCP: [Releases](https://github.com/biological-lattice-industries/loominus-mcp-client/releases)
+
+## Demos
+
+- Blender (pending)
+
+## Contribution Guidelines
+
+1. Configure an MCP server to Loominus MCP (Private + Public).
+2. Share an MCP server configuration with the Loominus community.
+    - Steps to share an MCP server (Github Issues)
+
 
 **Visual Builder for Agentic Graph Workflows Powered by Model Context Protocol (MCP) Tools and Agents.**
 
