@@ -1,5 +1,5 @@
 # 🌐 Loominus MCP
-[![BLI Logo](img/bli-logo-icon.png)](https://gist.github.com/filippostmech)
+
 **Visual Node-Based Builder for Model Context Protocol (MCP) Servers & Agents.**
 
 ## 🔥 Why Loominus MCP?
