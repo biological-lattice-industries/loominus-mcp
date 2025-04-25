@@ -1,4 +1,4 @@
-# 🌐 Loominus MCP
+# 🌐 Loominus MCP (Under Development)
 
 **Visual Node-Based Builder for Model Context Protocol (MCP) Servers & Agents.**
 
@@ -43,26 +43,3 @@ It’s a visual interface for:
 - Tool developers building for the MCP ecosystem
 
 > **You don’t need to be a developer.** Just start connecting.
-
-## 💸 Join the Community – $8/month
-
-- Download Loominus MCP: [Releases](https://github.com/biological-lattice-industries/loominus-mcp-client/releases)
-
-We’re building an early-access community around Loominus MCP. 
-
-**Membership includes:**
-- ✅ Early access to releases (desktop + CLI)
-- 📚 Example agentic workflows (education, lab, automation, etc.)
-- 🎙️ Monthly demo days + roadmap votes
-- 🧠 Access to Discord & private GitHub discussion
-- 📦 Shared node library for importing/exporting workflows
-
-→ [Join the waitlist](https://loominus.mcp/join) *(placeholder link)*
-
-## Contribution Guidelines
-
-1. Configure an MCP server to Loominus MCP (Private + Public).
-2. Share an MCP server configuration with the Loominus community.
-    - Steps to share an MCP server (Github Issues)
----
-
