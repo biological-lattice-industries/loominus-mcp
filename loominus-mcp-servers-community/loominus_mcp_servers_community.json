@@ -3,10 +3,8 @@
         "server_config": {
             "mcpServers": {
                 "blender": {
-                    "command": "cmd",
+                    "command": "uvx",
                     "args": [
-                        "/c",
-                        "uvx",
                         "blender-mcp"
                     ],
                     "transport": "stdio",
