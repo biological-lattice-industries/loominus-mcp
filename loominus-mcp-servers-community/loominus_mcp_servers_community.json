@@ -17,7 +17,7 @@
         "client_config": {
             "dependency": {
                 "title": "Blender",
-                "description": "",
+                "description": "# BlenderMCP \u2013 AI-Assisted Blender Control via MCP\n\n**BlenderMCP** connects Blender to an AI system using the **Model Context Protocol (MCP)**, enabling prompt-based 3D modeling, scene creation, and editing.\n\n## Components\n- **Blender Addon (`addon.py`)**: Runs a socket server in Blender to receive commands.\n- **MCP Server**: Python server implementing MCP, connects to the addon.\n\n## Installation\n1. Requires **Blender 3.0+**\n2. Download `addon.py` from github\n3. In Blender:  \n   `Edit > Preferences > Add-ons > Install...`  \n   Select `addon.py`\n4. Enable **\"Interface: Blender MCP\"**\n\n\nFor more information, visit the below",
                 "link": "https://github.com/ahujasid/blender-mcp",
                 "cmd": ""
             },
