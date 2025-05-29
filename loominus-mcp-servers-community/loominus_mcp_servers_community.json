@@ -19,7 +19,7 @@
                 "title": "Blender",
                 "description": "",
                 "link": "https://github.com/ahujasid/blender-mcp",
-                "uv": ""
+                "cmd": ""
             },
             "node_config": {
                 "op_code": "OP_MCP_SERVER"
