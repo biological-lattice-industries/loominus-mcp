@@ -23,5 +23,240 @@
                 "op_code": "OP_MCP_SERVER"
             }
         }
+    },
+    "Todoist": {
+        "server_config": {
+            "mcpServers": {
+                "todoist": {
+                    "command": "npx",
+                    "args": [
+                        "-y",
+                        "@abhiz123/todoist-mcp-server"
+                    ],
+                    "env": {
+                        "TODOIST_API_TOKEN": "ENV"
+                    },
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "Todoist",
+                "description": "# **TodoistMCP \u2013 AI-Assisted Task Management via MCP**\n\n**TodoistMCP** connects the Todoist task management platform to an AI system using the **Model Context Protocol (MCP)**, allowing natural-language control over tasks, projects, and productivity workflows.\n\n## Components  \n- **TodoistMCP Server**: A Python-based MCP server that communicates with the Todoist REST API.  \n- **MCP Interface**: Handles natural-language task queries and routes them to Todoist using authenticated API requests.\n\n## Features  \n- \u2705 Add tasks with due dates and priorities  \n- \ud83d\uddd3\ufe0f List today\u2019s or upcoming tasks  \n- \ud83d\udccc Query tasks by label, project, or filter  \n- \ud83d\udd04 Update task status, postpone deadlines  \n- \ud83d\uddc2\ufe0f Create and manage projects or sections  \n- \ud83e\udde0 Understand and execute natural-language productivity prompts  \n\n## Installation  \n1. Requires a **Todoist account** and an **API token**  \n2. No app installation is needed; the server interacts with Todoist via API\n\n## Obtaining Your Todoist API Token  \nTo use TodoistMCP, you'll need your Todoist API token:\n\n1. Log in to your Todoist account via the web app at https://todoist.com\n2. Click your avatar in the top-left corner and select **Settings**.  \n3. Navigate to the **Integrations** tab.  \n4. Under the **Developer** section, click **Copy API token** to obtain your API token. \n\nFor more information, visit link the below\n",
+                "link": "https://github.com/abhiz123/todoist-mcp-server",
+                "npx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    },
+    "FreeCAD": {
+        "server_config": {
+            "mcpServers": {
+                "freecad": {
+                    "command": "uvx",
+                    "args": [
+                        "freecad-mcp"
+                    ],
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "FreeCAD",
+                "description": "# **FreeCADMCP \u2013 AI-Assisted Parametric Modeling in FreeCAD via MCP**\n\n**FreeCADMCP** integrates FreeCAD with an AI system through the **Model Context Protocol (MCP)**, enabling natural-language driven creation, modification, and querying of parametric CAD models.\n\n## Components  \n- **FreeCAD Addon (`FreeCADMCP`)**: A FreeCAD workbench that facilitates communication between FreeCAD and the MCP server.  \n- **MCP Server**: Python-based server implementing MCP, bridges the AI and FreeCAD interface.\n\n## Features  \n- \ud83e\uddf1 Create parametric shapes like boxes, cylinders, and spheres  \n- \u270f\ufe0f Edit part dimensions and placements using prompts  \n- \ud83e\uddee Perform Boolean operations (union, cut, intersect)  \n- \ud83d\udcd0 Modify sketches and constraints  \n- \ud83d\uddc2\ufe0f Access and list document structure (features, bodies, sketches)  \n- \ud83d\udcac Execute FreeCAD scripting via natural-language queries  \n\n## Installation  \n1. Requires **FreeCAD 0.20+**  \n2. Clone or download the repository:  \n   `git clone https://github.com/neka-nat/freecad-mcp.git`  \n3. Copy the `addon/FreeCADMCP` directory into FreeCAD's Mod directory:  \n   - **Windows**: `%APPDATA%\\FreeCAD\\Mod\\`  \n   - **macOS/Linux**: `~/.local/share/FreeCAD/Mod/`  \n4. Launch FreeCAD and activate the **FreeCADMCP** workbench  \n5. In the **FreeCADMCP** menu, select **Start RPC Server** to initiate the connection\n\nFor more information, visit link the below",
+                "link": "https://github.com/neka-nat/freecad-mcp",
+                "uvx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    },
+    "Excel": {
+        "server_config": {
+            "mcpServers": {
+                "excel-stdio": {
+                    "command": "uvx",
+                    "args": [
+                        "excel-mcp-server",
+                        "stdio"
+                    ],
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "Excel",
+                "description": "# **ExcelMCP \u2013 AI-Driven Spreadsheet Manipulation via MCP**\n\n**ExcelMCP** connects an AI system to Excel-compatible spreadsheets using the **Model Context Protocol (MCP)**, enabling natural-language control of table editing, formula generation, charting, and more\u2014without requiring Microsoft Excel.\n\n## Components  \n- **ExcelMCP Server**: A Python-based MCP server that interprets spreadsheet-related prompts and manipulates `.xlsx` files accordingly.  \n- **MCP Interface**: Provides SSE or stdio-based communication between the AI and the server.\n\n## Features  \n- \ud83d\udcca Create and modify tables  \n- \u2795 Generate formulas from prompts  \n- \ud83d\udcc8 Create charts and graphs  \n- \ud83d\udd04 Sort, filter, and format data  \n- \ud83e\uddee Apply statistical operations  \n- \ud83d\udcdd Add and rename sheets  \n- \ud83d\udcc1 Read/write `.xlsx` files directly  \n\n## Installation  \nNo Excel or plugin installation required. The server operates directly on `.xlsx` files and is controlled via MCP.\n\nFor more information, visit link the below",
+                "link": "https://github.com/haris-musa/excel-mcp-server",
+                "uvx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    },
+    "Slicer": {
+        "server_config": {
+            "mcpServers": {
+                "slicer": {
+                    "command": "uvx",
+                    "args": [
+                        "mcp-slicer"
+                    ],
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "Slicer",
+                "description": "# **SlicerMCP \u2013 AI-Guided Medical Imaging via MCP**\n\n**SlicerMCP** integrates 3D Slicer with an AI system through the **Model Context Protocol (MCP)**, enabling natural-language driven medical image processing, scene creation, and manipulation.\n\n## Components  \n- **SlicerMCP Server**: A Python-based MCP server that interfaces with 3D Slicer via its Web Server module.  \n- **MCP Interface**: Communicates with the AI system using SSE or stdio transport protocols.\n\n## Features  \n- \ud83e\udde0 List and filter Slicer MRML nodes and view their properties  \n- \ud83e\uddfe Execute Python code within the Slicer environment  \n- \ud83d\uddbc\ufe0f Create and manipulate 3D scenes  \n- \ud83d\udd0d Perform medical image processing tasks  \n- \ud83d\udcca Visualize data using Slicer's capabilities  \n\n## Installation  \n1. Requires **3D Slicer 5.8+**  \n2. In 3D Slicer:  \n   - Open the **Web Server** module  \n   - Ensure the required interfaces are checked  \n   - Start the server  \n3. No additional add-ons or plug-ins are required\n\nFor more information, visit link the below",
+                "link": "https://github.com/zhaoyouj/mcp-slicer",
+                "uvx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    },
+    "Linkup": {
+        "server_config": {
+            "mcpServers": {
+                "linkup": {
+                    "command": "uvx",
+                    "args": [
+                        "mcp-search-linkup"
+                    ],
+                    "env": {
+                        "LINKUP_API_KEY": "ENV"
+                    },
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "Linkup",
+                "description": "# **LinkupMCP \u2013 AI-Powered Web Search via MCP**\n\n**LinkupMCP** is a Model Context Protocol (MCP) server that enables intelligent web search capabilities by connecting an AI system to Linkup's advanced search API. It allows natural-language queries to return high-quality, real-time information with detailed sources.\n\n## Components  \n- **Linkup MCP Server (`linkup_mcp_server`)**: Python module that exposes web search functionality via the MCP protocol.  \n- **Linkup Search API**: AI-powered search engine that delivers structured, up-to-date, and citation-backed content.\n\n## Features  \n- \ud83d\udd0d Advanced AI search with natural-language queries  \n- \ud83c\udf10 Access real-time web information  \n- \ud83d\udcda Retrieve comprehensive answers with source citations  \n- \u2728 Supports MCP-compatible clients like Claude Desktop and Cursor  \n- \ud83e\udde0 No need for keyword-tuned queries\u2014just ask naturally  \n\n## Installation \n\n1. Requires a valid **LINKUP_API_KEY**. Create an Linkup account and access the API key here: https://app.linkup.so/api-keys\n2. Use **Manage API Keys** in \"MCP Server Settings\" within Loominus MCP to save your API Key with the key \"LINKUP_API_KEY\"\n\nFor more information, visit link the below",
+                "link": "https://github.com/LinkupPlatform/python-mcp-server?tab=readme-ov-file",
+                "uvx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    },
+    "MCP Charts": {
+        "server_config": {
+            "mcpServers": {
+                "mcp-server-chart": {
+                    "command": "npx",
+                    "args": [
+                        "-y",
+                        "@antv/mcp-server-chart"
+                    ],
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "MCP Charts",
+                "description": "# **ChartMCP \u2013 AI-Driven Chart Generation via MCP**\n\n**ChartMCP** connects an AI system with AntV G2 (a visualization grammar library) using the **Model Context Protocol (MCP)**, enabling prompt-based generation of data visualizations in real-time.\n\n## Components  \n- **Chart Server (`server.ts`)**: Node.js-based MCP server that parses chart descriptions and renders them using AntV G2.  \n- **Ant G2 Engine**: A grammar of graphics engine for generating rich, interactive charts.\n\n## Features  \n- \ud83d\udcca Generate bar, line, pie, and scatter charts  \n- \u270d\ufe0f Accept natural-language prompts to describe charts  \n- \ud83e\uddee Handle raw or tabular input data  \n- \ud83c\udfa8 Customize styles, colors, legends, and labels  \n- \ud83c\udf10 Serve charts via a local web viewer  \n- \ud83d\udd04 Update charts interactively through new prompts  \n\n## Installation  \n3. No additional visualization software or browser extensions required\n\nFor more information, visit link the below",
+                "link": "https://github.com/antvis/mcp-server-chart",
+                "npx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    },
+    "Perplexity Ask": {
+        "server_config": {
+            "mcpServers": {
+                "perplexity-ask": {
+                    "command": "npx",
+                    "args": [
+                        "-y",
+                        "server-perplexity-ask"
+                    ],
+                    "env": {
+                        "PERPLEXITY_API_KEY": "ENV"
+                    },
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "Perplexity Ask",
+                "description": "# **Perplexity Ask MCP Server \u2013 Real-Time Web Search via MCP**\n\n**Perplexity Ask MCP Server** integrates the Sonar API with an AI system using the **Model Context Protocol (MCP)**, enabling real-time, web-wide research through natural language interactions.\n\n## Important Links\n**MCP Server**: https://github.com/ppl-ai/modelcontextprotocol/tree/main\n**Perplexity Website**: https://www.perplexity.ai/\n\n## Components  \n- **Perplexity Ask MCP Server (`perplexity-ask`)**: Node.js-based MCP server interfacing with the Sonar API.  \n- **Sonar API**: Delivers AI-powered search capabilities for accurate, up-to-date web content retrieval.\n\n## Features  \n- \ud83d\udd0d Execute real-time web searches using natural language queries  \n- \ud83c\udf10 Access comprehensive, current information across the web  \n- \ud83d\udcda Obtain detailed answers with source citations  \n- \u2699\ufe0f Compatible with MCP-based AI clients for seamless integration  \n\n## Installation and Setup  \n\n### 1. Obtain and Set Sonar API Key  \n- Sign up and log in to your Sonar API account.\n- Obtain your API key from the developer dashboard.\n- Configure your API key environment variable using `Manage API Keys`:\n\n `PERPLEXITY_API_KEY=your_api_key_here`\n\nFor more information, visit link the below\n",
+                "link": "https://github.com/ppl-ai/modelcontextprotocol/tree/main",
+                "npx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    },
+    "Github": {
+        "server_config": {
+            "mcpServers": {
+                "github": {
+                    "command": "npx",
+                    "args": [
+                        "-y",
+                        "github-mcp-custom@1.0.20",
+                        "stdio"
+                    ],
+                    "env": {
+                        "GITHUB_PERSONAL_ACCESS_TOKEN": "ENV"
+                    },
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "Github",
+                "description": "# **GitHub MCP Custom \u2013 Cross-Platform GitHub Integration via MCP**\n\n**GitHub MCP Custom** is a cross-platform MCP server that enables AI systems to interact with GitHub using the **Model Context Protocol (MCP)**. It wraps the official GitHub MCP server into an NPX-compatible package, removing the need for Docker or manual Go setup.\n\n## Important Links  \n**MCP Server**: https://github.com/idletoaster/github-mcp-custom  \n**GitHub Website**: https://github.com/  \n**GitHub MCP Server (Official)**: https://github.com/github/github-mcp-server\n\n## Components  \n- **GitHub MCP Custom (`github-mcp-custom`)**: NPX-compatible wrapper for the GitHub MCP server.  \n- **GitHub MCP Server**: Provides natural-language interaction with GitHub\u2019s REST API, covering repositories, issues, pull requests, and more.\n\n## Features  \n- \ud83d\udcc1 List, create, and describe repositories using natural language  \n- \ud83d\udee0\ufe0f Open, edit, close, and comment on issues or pull requests  \n- \ud83d\udcc4 Read, create, update, and delete files in repositories  \n- \ud83d\udc65 Manage collaborators, user profiles, and organization members  \n- \ud83d\udd0d Search GitHub data and fetch structured responses through MCP  \n- \ud83e\udde0 Exposes GitHub operations as callable tools for AI agents\n\n## Installation and Setup  \n\n### 1. Obtain and Set GitHub Personal Access Token  \n- Go to your GitHub account settings.  \n- Navigate to **Developer Settings > Personal Access Tokens**.  \n- Click **Generate new token (classic)**.  \n- Select appropriate scopes (e.g., `repo`, `read:org`, `user`).  \n- Copy your token and set it in your environment as:  \n\n `GITHUB_PERSONAL_ACCESS_TOKEN=your_token_here`\n\nFor more information, visit link the below\n",
+                "link": "https://github.com/idletoaster/github-mcp-custom",
+                "npx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
+    },
+    "Memory": {
+        "server_config": {
+            "mcpServers": {
+                "memory": {
+                    "command": "npx",
+                    "args": [
+                        "-y",
+                        "@modelcontextprotocol/server-memory"
+                    ],
+                    "transport": "stdio"
+                }
+            }
+        },
+        "client_config": {
+            "dependency": {
+                "title": "Memory",
+                "description": "# **Memory MCP Server \u2013 Persistent Knowledge Graph for AI Agents**\n\n**Memory MCP Server** enables AI systems to maintain long-term, structured memory through a persistent knowledge graph, using the **Model Context Protocol (MCP)**. It allows AI agents to create, update, and query entities, relationships, and observations, enabling more personalized and context-aware behavior.\n\n## Important Links  \n**MCP Server**: https://github.com/modelcontextprotocol/servers/tree/main/src/memory  \n\n## Components  \n- **Memory MCP Server (`memory`)**: TypeScript-based MCP server that implements a local, persistent knowledge graph.  \n- **Graph Engine**: Stores entities, relationships, and observations in structured form.\n\n## Features  \n- \ud83e\udde0 Create and manage entities with names, types, and unique IDs  \n- \ud83d\udd17 Define relationships between entities to express context and structure  \n- \ud83d\udcdd Attach observations to entities with timestamps and metadata  \n- \ud83d\udd0d Search graph contents using node names, types, or observation values  \n- \ud83d\udcc2 Maintain persistent memory across sessions via local file storage  \n- \u2699\ufe0f Exposes MCP tools like `create_entities`, `add_observations`, `create_relations`, `read_graph`, and more\n\n## Installation and Setup  \n\nNo additional installation is needed beyond running the MCP server.\n\nFor more information, visit link the below\n",
+                "link": "https://github.com/modelcontextprotocol/servers/tree/HEAD/src/memory",
+                "npx": ""
+            },
+            "node_config": {
+                "op_code": "OP_MCP_SERVER"
+            }
+        }
     }
 }
